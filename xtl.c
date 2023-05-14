@@ -1588,7 +1588,7 @@ static const char __pyx_k_os[] = "os";
 static const char __pyx_k_re[] = "re";
 static const char __pyx_k_tl[] = "tl";
 static const char __pyx_k_ts[] = "ts";
-static const char __pyx_k_u2[] = "u2";
+static const char __pyx_k_u3[] = "u3";
 static const char __pyx_k_SCT[] = "SCT";
 static const char __pyx_k__11[] = "\345\201\267\346\222\270\347\254\254 ";
 static const char __pyx_k__12[] = " \346\254\241 \347\273\223\346\236\234:\n ";
@@ -1991,7 +1991,7 @@ static PyObject *__pyx_n_s_timedelta;
 static PyObject *__pyx_n_s_title;
 static PyObject *__pyx_n_s_tl;
 static PyObject *__pyx_n_s_ts;
-static PyObject *__pyx_n_u_u2;
+static PyObject *__pyx_n_u_u3;
 static PyObject *__pyx_n_u_unicode;
 static PyObject *__pyx_n_s_url;
 static PyObject *__pyx_n_s_urllib;
@@ -4939,7 +4939,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_title, __pyx_k_title, sizeof(__pyx_k_title), 0, 0, 1, 1},
   {&__pyx_n_s_tl, __pyx_k_tl, sizeof(__pyx_k_tl), 0, 0, 1, 1},
   {&__pyx_n_s_ts, __pyx_k_ts, sizeof(__pyx_k_ts), 0, 0, 1, 1},
-  {&__pyx_n_u_u2, __pyx_k_u2, sizeof(__pyx_k_u2), 0, 1, 0, 1},
+  {&__pyx_n_u_u3, __pyx_k_u3, sizeof(__pyx_k_u3), 0, 1, 0, 1},
   {&__pyx_n_u_unicode, __pyx_k_unicode, sizeof(__pyx_k_unicode), 0, 1, 0, 1},
   {&__pyx_n_s_url, __pyx_k_url, sizeof(__pyx_k_url), 0, 0, 1, 1},
   {&__pyx_n_s_urllib, __pyx_k_urllib, sizeof(__pyx_k_urllib), 0, 0, 1, 1},
@@ -6170,7 +6170,7 @@ if (!__Pyx_RefNanny) {
  *     return response.json()
  * 
  * BASE_URL = "http://124.222.223.21:9009/api"             # <<<<<<<<<<<<<<
- * API_KEY = "u2"
+ * API_KEY = "u3"
  * 
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_BASE_URL, __pyx_kp_u_http_124_222_223_21_9009_api) < 0) __PYX_ERR(0, 88, __pyx_L1_error)
@@ -6178,14 +6178,14 @@ if (!__Pyx_RefNanny) {
   /* "xtl.py":89
  * 
  * BASE_URL = "http://124.222.223.21:9009/api"
- * API_KEY = "u2"             # <<<<<<<<<<<<<<
+ * API_KEY = "u3"             # <<<<<<<<<<<<<<
  * 
  * client_ip = get_external_ip()
  */
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_API_KEY, __pyx_n_u_u2) < 0) __PYX_ERR(0, 89, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_API_KEY, __pyx_n_u_u3) < 0) __PYX_ERR(0, 89, __pyx_L1_error)
 
   /* "xtl.py":91
- * API_KEY = "u2"
+ * API_KEY = "u3"
  * 
  * client_ip = get_external_ip()             # <<<<<<<<<<<<<<
  * if client_ip is None:
